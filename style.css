@@ -1,0 +1,69 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000; /* Adjust the background color as needed */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 70vh; /* Set a maximum height of 70% of the viewport height */
+    height: 100%;
+}
+
+
+.ascii-button {
+    display: inline-block;
+    background-color: #555;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    font-family: monospace;
+    font-size: 20px; /* Adjust as needed */
+    cursor: pointer;
+}
+
+.ascii-button:hover {
+    background-color: #333;
+}
+
+#ascii-socials-container,
+#ascii-projects-container {
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 10px; /* Adjust as needed */
+    overflow: hidden;
+    margin: 10px; /* Add margin for spacing between containers */
+    white-space: pre; /* Preserve whitespace */
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+        font-size: 5px; /* Decrease the font size for smaller screens */
+        overflow: auto; /* Add a scrollbar if content overflows */
+    }
+}
+
+#ascii-elijah-container,
+#ascii-retzlaff-container {
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 20px; /* Adjust as needed */
+    overflow: hidden;
+    margin: 10px; /* Add margin for spacing between containers */
+    white-space: pre; /* Preserve whitespace */
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+        font-size: 15px; /* Decrease the font size for smaller screens */
+        overflow: auto; /* Add a scrollbar if content overflows */
+    }
+}

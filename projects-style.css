@@ -1,0 +1,58 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #000000; /* Adjust the background color as needed */
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: #000000;
+    border: 1px solid #ddd;
+    /* border-radius: 5px; */
+    overflow: hidden;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.description {
+    padding: 10px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ascii-projects-container {
+    width: 100%;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: monospace;
+    font-size: 30; /* Adjust as needed */
+    overflow: hidden;
+    margin: 10px; /* Add margin for spacing between containers */
+    white-space: pre; /* Preserve whitespace */
+
+    /* Media query for smaller screens */
+    @media (max-width: 768px) {
+        font-size: 8px; /* Decrease the font size for smaller screens */
+        
+    }
+}
