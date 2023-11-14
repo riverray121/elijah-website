@@ -52,7 +52,7 @@ body, html {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 868px) {
+@media (max-width: 768px) {
     #ascii-projects-container {
         font-size: 8px;
     }
@@ -61,7 +61,7 @@ body, html {
         grid-template-columns: repeat(auto-fill, minmax(5vw, 1fr));
     }
 
-    .description {
+    /* .description {
         font-size: 4px;
-    }
+    } */
 }
