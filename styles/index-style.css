@@ -64,8 +64,8 @@ body, html {
     white-space: pre; /* Preserve whitespace */
 
     /* Media query for smaller screens */
-    @media (max-width: 768px) {
-        font-size: 15px; /* Decrease the font size for smaller screens */
+    @media (max-width: 668px) {
+        font-size: 12px; /* Decrease the font size for smaller screens */
         overflow: auto; /* Add a scrollbar if content overflows */
     }
 }
