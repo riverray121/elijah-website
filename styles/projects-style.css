@@ -56,4 +56,8 @@ body, html {
     #ascii-projects-container {
         font-size: 8px;
     }
+
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
+    }
 }
