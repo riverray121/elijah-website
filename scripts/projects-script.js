@@ -62,7 +62,7 @@ function updateASCIIArt(container, frames) {
     |  __/  |  _ <  | |_| | | |_| | | |___  | |___    | |    ___) | 
     |_|     |_| \\_\\  \\___/   \\___/  |_____|  \\____|   |_|   |____/  
     `,
-  
+    
   ];
 
   updateASCIIArt(asciiContainer3, frames3); // Start the first animation
