@@ -60,4 +60,8 @@ body, html {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(5vw, 1fr));
     }
+
+    .description {
+        font-size: 4px;
+    }
 }
