@@ -57,9 +57,9 @@ body, html {
         font-size: 8px;
     }
 
-    /* .grid {
+    .grid {
         grid-template-columns: repeat(auto-fill, minmax(10vw, 1fr));
-    } */
+    }
 
     /* .description {
         font-size: 4px;
