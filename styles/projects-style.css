@@ -49,9 +49,11 @@ body, html {
     overflow: auto;
     margin: 10px;
     white-space: pre;
+}
 
-    /* Media query for smaller screens */
-    @media (max-width: 768px) {
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #ascii-projects-container {
         font-size: 8px;
     }
 }
