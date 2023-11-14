@@ -52,7 +52,7 @@ body, html {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 480px) {
+@media (max-width: 868px) {
     #ascii-projects-container {
         font-size: 8px;
     }
