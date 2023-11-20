@@ -41,11 +41,11 @@ body, html {
 }
 
 #ascii-projects-container {
-    width: 100%;
+    /* width: 90vw; */
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: monospace;
-    font-size: 30px; /* Add the unit (e.g., pixels) */
+    font-size: 25px; /* Add the unit (e.g., pixels) */
     overflow: auto;
     margin: 10px;
     white-space: pre;
@@ -53,6 +53,7 @@ body, html {
 
 /* Media query for smaller screens */
 @media (max-width: 868px) {
+
     #ascii-projects-container {
         font-size: 8px;
     }
@@ -61,7 +62,4 @@ body, html {
         grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
     }
 
-    /* .description {
-        font-size: 4px;
-    } */
 }
