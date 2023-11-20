@@ -64,3 +64,29 @@ body, html {
     }
 
 }
+
+
+
+
+header {
+    max-width: 800px;
+    margin: 0 auto; /* Center the header horizontally */
+    text-align: center; /* Center the text within the header */
+}
+  
+h1, p {
+    margin: 30px; /* Remove default margin for h1 and p */
+}
+
+
+section {
+    text-align: center; /* Center the content within the section */
+}
+
+img {
+    max-width: 75% !important;
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Remove any extra space below the images */
+    margin: 0 auto; /* Center the images horizontally */
+  }
+  
