@@ -21,6 +21,7 @@ body, html {
     border: 1px solid #ddd;
     /* border-radius: 5px; */
     overflow: hidden;
+    cursor: pointer;
 }
 
 .image {

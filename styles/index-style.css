@@ -44,7 +44,6 @@ body, html {
     white-space: pre; /* Preserve whitespace */
     cursor: pointer;
 
-
     /* Media query for smaller screens */
     @media (max-width: 768px) {
         font-size: 5px; /* Decrease the font size for smaller screens */
