@@ -7,6 +7,7 @@ body, html {
     align-items: center;
     color: white;
     background-color: #000000; /* Adjust the background color as needed */
+    font-family: Arial, sans-serif;
 }
 
 .grid {
@@ -66,8 +67,6 @@ body, html {
 }
 
 
-
-
 header {
     max-width: 800px;
     margin: 0 auto; /* Center the header horizontally */
@@ -88,5 +87,11 @@ img {
     height: auto; /* Maintain the aspect ratio of the images */
     display: block; /* Remove any extra space below the images */
     margin: 0 auto; /* Center the images horizontally */
-  }
-  
+}
+
+video {
+    max-width: 75% !important;
+    height: auto; /* Maintain the aspect ratio of the images */
+    display: block; /* Remove any extra space below the images */
+    margin: 0 auto; /* Center the images horizontally */
+}
