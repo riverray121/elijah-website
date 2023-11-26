@@ -73,9 +73,9 @@ function setup() {
     CENTER = { x: WIDTH / 2, y: HEIGHT / 2 };
     createCanvas(WIDTH, HEIGHT);
 
-    let lineLength = 500; // Length of the line
+    let lineLength = 750; // Length of the line
     let startY = HEIGHT / 2; // Starting y-position of the line
-    for (let i = 0; i < 5000; i++) {
+    for (let i = 0; i < 2500; i++) {
         let x = random(WIDTH / 2 - lineLength / 2, WIDTH / 2 + lineLength / 2);
         let y = startY;
         particles.push(new Particle(x, y));
