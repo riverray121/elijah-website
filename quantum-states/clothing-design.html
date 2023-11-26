@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Particle Simulation with Overlay</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+        }
+        #overlay {
+            position: absolute;
+            top: 10px; /* Keeps the overlay at the top */
+            left: 50%; /* Center the overlay container horizontally */
+            transform: translateX(-50%); /* Adjust for exact horizontal centering */
+            color: white;
+            font-size: 32px;
+            z-index: 2; /* Ensures overlay is above the canvas */
+        }
+        #overlay img {
+            width: 80vw; /* Adjust as needed */
+            height: auto;
+            display: block; /* To apply margin auto */
+            margin: 0 auto; /* Center the image horizontally within the overlay */
+        }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+</head>
+<body>
+    <div id="overlay">
+        <!-- <h1>Hello, World!</h1> -->
+        <img src="logo invert.png" alt="Description">
+    </div>
+    <script src="sketch.js"></script>
+</body>
+</html>
