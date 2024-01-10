@@ -32,23 +32,18 @@ body, html {
     background-color: #333;
 }
 
+
 #ascii-socials-container,
 #ascii-projects-container {
     width: 100%;
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: monospace;
-    font-size: 10px; /* Adjust as needed */
+    font-size: 10px;
     overflow: hidden;
-    margin: 10px; /* Add margin for spacing between containers */
-    white-space: pre; /* Preserve whitespace */
+    margin: 10px;
+    white-space: pre;
     cursor: pointer;
-
-    /* Media query for smaller screens */
-    @media (max-width: 768px) {
-        font-size: 5px; /* Decrease the font size for smaller screens */
-        overflow: auto; /* Add a scrollbar if content overflows */
-    }
 }
 
 #ascii-elijah-container,
@@ -57,14 +52,23 @@ body, html {
     background-color: black;
     color: rgb(255, 255, 255);
     font-family: monospace;
-    font-size: 20px; /* Adjust as needed */
+    font-size: 20px;
     overflow: hidden;
-    margin: 10px; /* Add margin for spacing between containers */
-    white-space: pre; /* Preserve whitespace */
+    margin: 10px;
+    white-space: pre;
+}
 
-    /* Media query for smaller screens */
-    @media (max-width: 668px) {
-        font-size: 12px; /* Decrease the font size for smaller screens */
-        overflow: auto; /* Add a scrollbar if content overflows */
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #ascii-socials-container, #ascii-projects-container {
+        font-size: 5px;
+        overflow: auto;
+    }
+}
+
+@media (max-width: 668px) {
+    #ascii-elijah-container, #ascii-retzlaff-container {
+        font-size: 12px;
+        overflow: auto;
     }
 }
