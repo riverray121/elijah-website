@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elijah Retzlaff Website</title>
     <link rel="stylesheet" type="text/css" href="styles/index-style.css">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
@@ -11,19 +13,19 @@
         <div id="ascii-elijah-container">
             <script src="scripts/elijah-script.js"></script> 
         </div>
-
+    
         <div id="ascii-retzlaff-container">
             <script src="scripts/retzlaff-script.js"></script> 
         </div>
-
-        <div class="ascii-button" id="ascii-projects-container" onclick="window.location.href='projects-home.html';">
+    
+        <div id="ascii-projects-container" class="ascii-button" onclick="window.location.href='projects/projects-home.html';">
             <script src="scripts/projects-script.js"></script> 
         </div>
-
-        <div class="ascii-button" id="ascii-socials-container" onclick="window.location.href='about-me.html';">
+    
+        <div id="ascii-socials-container" class="ascii-button" onclick="window.location.href='biography/about-me.html';">
             <script src="scripts/socials-script.js"></script> 
         </div>
-
+    
         <!-- <div class="ascii-button" id="ascii-socials-container" onclick="window.location.href='clothing-design.html';">
             <script src="scripts/socials-script.js"></script> 
         </div> -->
@@ -31,3 +33,13 @@
     </div>
 </body>
 </html>
+
+{% extends "templates/base.html" %}
+
+{% block head %}
+    
+{% endblock %}
+
+{% block body %}
+
+{% endblock %}

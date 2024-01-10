@@ -3,104 +3,58 @@ body, html {
     margin: 0;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     color: white;
-    background-color: #000000; /* Adjust the background color as needed */
+    background-color: #000000;
     font-family: Arial, sans-serif;
 }
 
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15vw, 1fr));
-    gap: 5vw;
-    padding: 20px;
-}
-
-.grid-item {
-    background-color: #000000;
-    border: 1px solid #ddd;
-    /* border-radius: 5px; */
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.image {
+.image, img {
     max-width: 100%;
     height: auto;
     display: block;
+    margin: 0 auto;
 }
 
-.description {
-    padding: 10px;
+.social-links {
+    display: flex;
+    align-items: center;
+}
+
+.social {
+    margin: 0 10px;
+    height: 100px; 
+}
+
+.description, .container, header, section {
     text-align: center;
+    max-width: 800px;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.email-link {
-    color: #b8b8b8;
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
-#ascii-projects-container {
-    /* width: 90vw; */
-    background-color: black;
-    color: rgb(255, 255, 255);
-    font-family: monospace;
-    font-size: 25px; /* Add the unit (e.g., pixels) */
-    overflow: auto;
-    margin: 10px;
-    white-space: pre;
+.button:hover {
+    background-color: #a1a1a1;
 }
 
-/* Media query for smaller screens */
-@media (max-width: 868px) {
-
-    #ascii-projects-container {
-        font-size: 8px;
-    }
-
-    .grid {
-        grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
-    }
-
+h1, p {
+    margin: 30px;
 }
 
-
-header {
-    max-width: 800px;
-    margin: 0 auto; /* Center the header horizontally */
-    text-align: center; /* Center the text within the header */
-}
-  
 h1 {
     font-size: 5vw;
-    margin: 30px; /* Remove default margin for h1 and p */
-}
-
-p {
-    margin: 30px; /* Remove default margin for h1 and p */
-}
-
-
-section {
-    text-align: center; /* Center the content within the section */
-}
-
-img {
-    max-width: 75% !important;
-    height: auto; /* Maintain the aspect ratio of the images */
-    display: block; /* Remove any extra space below the images */
-    margin: 0 auto; /* Center the images horizontally */
-}
-
-video {
-    max-width: 75% !important;
-    height: auto; /* Maintain the aspect ratio of the images */
-    display: block; /* Remove any extra space below the images */
-    margin: 0 auto; /* Center the images horizontally */
 }
