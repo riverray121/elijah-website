@@ -59,16 +59,18 @@ body, html {
 }
 
 /* Media query for smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 950px) {
     #ascii-socials-container, #ascii-projects-container {
-        font-size: 5px;
+        font-size: 4px;
+        margin: 20px;
         overflow: auto;
     }
 }
 
-@media (max-width: 668px) {
+@media (max-width: 950px) {
     #ascii-elijah-container, #ascii-retzlaff-container {
         font-size: 8px;
+        margin: 20px;
         overflow: auto;
     }
 }
