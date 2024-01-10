@@ -68,7 +68,7 @@ body, html {
 
 @media (max-width: 668px) {
     #ascii-elijah-container, #ascii-retzlaff-container {
-        font-size: 12px;
+        font-size: 8px;
         overflow: auto;
     }
 }
