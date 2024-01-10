@@ -67,7 +67,6 @@ body, html {
     .grid {
         grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
     }
-
 }
 
 
